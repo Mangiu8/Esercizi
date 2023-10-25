@@ -1,0 +1,54 @@
+#master {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    border-radius: 20px;
+}
+.first {color: aqua;}
+.child_of_first {
+    color: blue;
+    font-weight: bolder;
+}
+figcaption {
+    color: grey;
+}
+section {
+    align-content: left;
+}
+h3 {
+    margin-right: 550px;
+    color: orange;
+}
+#link1 {
+    margin-right: 350px;
+}
+h2 {
+    margin-right: 550px;
+}
+
+/*+++++++++++++++++++++++++ DIV +++++++++++++++++++++++++++++++*/
+
+.simply {
+    margin: 0 100px;
+    border-top-style: solid;
+    border-color: yellow;
+    background-color: rgb(255, 255, 199);
+}
+.chil_of_ingredients {
+    margin-right: 550px;
+    font-weight: bold;
+    ist-style: none;
+}
+.topping {
+    margin-right: 550px;
+    font-weight: bold;
+}
+.method {
+    margin-right: 600px;
+    font-weight: bold;
+}
+li {
+    list-style: none;
+}
