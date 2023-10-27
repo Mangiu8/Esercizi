@@ -1,0 +1,140 @@
+/*+++++++++++++++ BODY +++++++++++++++ */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41 ;
+    font-size: 1.5rem;
+    line-height: 1.65;
+}
+/*++++++++++++++ HEADER ++++++++++++++++++++*/
+header {
+    background-image: url(../images/banner.jpg);
+    background-position: center center;
+    text-align: center;
+}
+#logo {
+    background-color: black;
+    padding-bottom: 2em;
+    text-align: start;
+    padding-left: 2em;
+}
+.logo_file{
+    width: 15em;
+    margin-top: 2em;
+}
+article h1 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+button {
+    background-color: #f04c2f;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 4px 7px;
+    margin-top: 5em;
+    margin-bottom: 10em;
+    border-radius: 5px;
+    width: 9rem;
+    height: 3rem;
+    border: 1px white;
+}
+/*+++++++++++++++++++ MAIN ++++++++++++++++++++++++*/
+h2 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+.child_h2 {
+    margin-left: 45em;
+    margin-top: 2em;
+}
+.p_centrali {
+    text-align: start;
+    margin-left: 39em;
+    margin-bottom: 2.5em;
+}
+
+#notebook {
+    text-align: center;
+}
+#notebook img {
+    border-radius: 300px;
+    width: 20em;
+    float: inline-start;
+    margin-left: 10em;
+}
+#ceo {
+    background-color: #e22d0e;
+    text-align: center;
+    margin-top: 2.5em;
+}
+h3 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#ceo p {
+    color: white;
+    font-style: oblique;
+}
+h4 {
+    color: white;
+    padding-top: 1em;
+}
+h4 ~ p {
+    padding-bottom: 2em;
+    font-style: normal!important;
+}
+/*++++++++++++++++++ ASIDE +++++++++++++++++++++++*/
+aside {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.blocchi {
+     border: 3px solid #dee1e3;
+     text-align: center;
+     margin: 1.5em;
+}
+.blocchi img {
+    width: 24em;
+}
+.blocchi p {
+    padding-bottom: 1.5em;
+}
+#immagine_strana {
+    width: fit-content;
+}
+/*+++++++++++++++++ FOOTER +++++++++++++++++++++++++++*/
+footer {
+    background-color: #25a2c3;
+    text-align: center;
+    color: white;
+}
+a:link, a[href^="https"] {
+    color: white;
+}
+a:hover {
+    color: #f04c2f;
+}
+a:visited {
+    color: #393d41;
+}
+hr {
+    width: 15em;
+}
+address {
+    padding-bottom: 1em;
+}
+hr ~ p {
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
